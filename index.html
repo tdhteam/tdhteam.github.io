@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+  <title>TDHCrypto - A fair and decentralized meme token on BSC</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="TDHCrypto is a widely distributed meme token with virality mechanisms and dApps for non-technical users.">
+  <meta name="author" content="TDHCrypto">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/gems.png">
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GRL3G2D4J7');
+  </script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/tailwind.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <script src="js/i18n.js"></script>
+
+</head><body class="font-sans"><div id="content">
+<div>
+  
+  
+<main class="bg-black text-gray-200 font-medium">
+  
+  <!-- header block -->
+  <div class="bg-black">
+    <header class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-4 lg:py-6 flex flex-wrap justify-between items-center">
+      <a href="#" class="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
+        <img class="animate-bounce h-10 inline mr-4 -mt-1" src="images/gems.png" alt="" width="auto">
+        <span class="text-xl font-bold">#TDHCrypto</span>
+      </a>
+      <nav class="flex items-center space-x-4 w-full justify-center md:w-1/2 md:justify-end flex-wrap">
+        <div class="w-full text-center md:text-right mb-2">
+            <a href="#" class="inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-2 px-5 text-white "><img class="w-4 h-4 inline mr-2 -mt-1" src="images/cake.svg" /><span data-i18n="buy-pancakeswap">Buy on PancakeSwapV2</span></a>
+        </div>
+        <!-- <div x-data="{open: false}" class="relative">
+            <span x-on:click="open = true" class="cursor-pointer" data-i18n="language-name">🇺🇸 English</span>
+            <div x-show.transition="open" x-on:click.away="open = false" class="absolute right-20 w-80 mt-2 py-2 bg-white border rounded shadow-xl flex flex-wrap justify-left">   
+                <a href="#?lang=en" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇺🇸 English</a>
+                <a href="#?lang=es" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇪🇸 Español</a>
+                <a href="#?lang=zh-hans" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇨🇳 汉语</a>
+                <a href="#?lang=zh-hant" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇹🇼 漢語</a>
+                <a href="#?lang=ja" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇯🇵 日本語</a>
+                <a href="#?lang=ko" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇰🇷 한국어</a>
+                <a href="#?lang=ar" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇦🇪 اَلْعَرَبِيَّةُ</a>
+                <a href="#?lang=tr" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇹🇷 Türkçe</a>
+                <a href="#?lang=hi" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇮🇳 हिन्दी</a>
+                <a href="#?lang=pt" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇧🇷 Português</a>
+                <a href="#?lang=ru" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇷🇺 Русский</a>
+                <a href="#?lang=fr" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇫🇷 Français</a>
+                <a href="#?lang=de" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇩🇪 Deutsch</a>
+                <a href="#?lang=vi" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇻🇳 Tiếng Việt</a>
+                <a href="#?lang=id" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇮🇩 B. Indonesia</a>
+                <a href="#?lang=pa" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇮🇳 ਪੰਜਾਬੀ</a>
+                <a href="#?lang=ur" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇵🇰 اُردُو</a>
+                <a href="#?lang=bn" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇧🇩 বাংলা</a>
+                <a href="#?lang=fa" class="transition-colors duration-200 block px-4 py-2 text-normal text-gray-900 rounded hover:bg-indigo-600 hover:text-white w-1/2">🇮🇷 فارسی</a>
+            </div>
+        </div> -->
+        <a href="#features" class="flex space-x-1 items-center hover:text-white"> 
+            Features
+        </a>
+        <a href="#project" class="flex space-x-1 items-center hover:text-white"> 
+            Project
+        </a>
+        <a href="#distribution" class="flex space-x-1 items-center hover:text-white" data-i18n="join-telegram">
+          Distribution
+        </a>
+      </nav>
+    </header>
+  </div>
+  <!--/ header block -->
+
+  <div class="py-12 md:py-24 bg-black">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+      <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+        <h1 class="text-lg text-gray-400">#TDHCrypto</h1>
+        <h2 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8 leading-tight" data-i18n="title">TDHCrypto <br>Best Scam Token</h2>
+        
+        <p class="text-lg xl:text-xl text-gray-200 mb-6 lg:mb-8 xl:mb-10" data-i18n="subtitle">TDHCrypto aims to become the most decentralized meme-token in existence, distributing its token to over 1 million users and surpassing DogeCoin in the number of holders</p>
+        <div class="flex space-x-4 mb-6">
+            <a href="#" class="focus:outline-none inline-block bg-transparent border-2 border-white hover:bg-gray-700 font-semibold rounded-lg py-4 px-6 text-white" data-i18n="join-telegram">Join Telegram</a>
+            <a href="#" class="focus:outline-none inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-4 px-6 text-white"><img class="w-4 h-4 inline mr-2 -mt-1" src="images/cake.svg" /><span data-i18n="buy-pancakeswap">Buy on PancakeSwapV2</span></a>
+        </div>
+        <p class="text-gray-400 text-sm" data-i18n="num-holders">Over 751,222 token holders on Binance Smart Chain</p>
+      </div>
+      <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+        <img src="images/gems.png" class="transition duration-700 ease-in-out transform hover:rotate-90 rounded-lg shadow-2xl" alt="">
+      </div>
+    </div>
+  </div>
+  
+  <!-- logo block -->
+  <div class="py-6 mb-6">
+    <div class="flex flex-wrap justify-center cursor-pointer">
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/bscscan.png" alt="TDHCrypto BSCScan"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/coinmarketcap.png" alt="TDHCrypto CoinMarketCap"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/coingecko.png" alt="TDHCrypto CoinGecko"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/trustwallet.png" alt="TDHCrypto TrustWallet"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/pancakeswap.png" alt="TDHCrypto PancakeSwap"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/coinbase.png" alt="TDHCrypto CoinBase"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4 py-5" src="images/logos/nomics.png" alt="TDHCrypto Nomics"></a>
+        <a href="#" target="_blank"><img class="h-16 p-4" src="images/logos/stocktwits.png" alt="TDHCrypto Stocktwits"></a>
+    </div>
+  </div>
+  <!--/ logo block -->
+  
+  <!-- pricing block -->
+  <div class="bg-gradient-to-b from-black to-gray-900" id="features">
+    <div class="max-w-screen-xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <h3 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4" data-i18n="features-title">#TDH Features</h3>
+        <p class="text-lg xl:text-xl text-gray-200" data-i18n="features-list">Auto liquidity locking, yield-farming and dApp utility</p>
+      </div>
+
+
+      <div class="grid md:grid-cols-3 gap-x-8 gap-y-8 items-start">
+        <div class="p-4 md:p-8  rounded-lg bg-gray-900">
+          <div class="flex justify-between items-baseline mb-4">
+            <h4 class="text-xl lg:text-2xl font-bold w-full" data-i18n="token-title">Token</h4>
+          </div>
+          <p class="text-gray-200 mb-6 text-lg" data-i18n="token-description">Token features that benefit users and token holders.</p>
+          <ul class="text-gray-200 space-y-4 text-lg">
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b1" class="w-full">Features a TDH</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b2" class="w-full">Utility for dApps</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="token-b3" class="w-full">Auto-yield farming</span>
+            </li>
+          </ul>
+        </div>
+        <div class="p-4 md:p-8  rounded-lg bg-gray-900">
+          <div class="flex justify-between items-baseline mb-4">
+            <h4 class="text-xl lg:text-2xl font-bold w-full" data-i18n="distribution-title">Distribution</h4>
+          </div>
+          <p class="text-gray-200 mb-6 text-lg" data-i18n="distribution-description">Decentralized distribution using community mechanisms.</p>
+          <ul class="text-gray-200 space-y-4 text-lg">
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="distribution-b1" class="w-full">Programmatic distribution</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="distribution-b2" class="w-full">Community rewards</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="distribution-b3" class="w-full">Tipping users/creators</span>
+            </li>
+          </ul>
+        </div>
+        <div class="p-4 md:p-8  rounded-lg bg-gray-900">
+            <div class="flex justify-between items-baseline mb-4">
+              <h4 class="text-xl lg:text-2xl font-bold w-full" data-i18n="benefits-title">Benefits</h4>
+            </div>
+            <p class="text-gray-200 mb-6 text-lg" data-i18n="benefits-description">Countless benefits for TDHCrypto token holders.</p>
+            <ul class="text-gray-200 space-y-4 text-lg">
+              <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                  <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="benefits-b1" class="w-full">Fairly distributed</span>
+              </li>
+              <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                  <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="benefits-b2" class="w-full">Rising price floor</span>
+              </li>
+              <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                  <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="benefits-b3" class="w-full">Anti-whale safety</span>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--/ pricing block -->
+
+
+  <div class="bg-gray-900" id="project">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 xl:px-4 py-8">
+        <h3 class="text-white text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-12" data-i18n="project-title">The #TDHCrypto Project</h3>
+      <div class="text-left pt-12">
+        <p class="text-lg xl:text-xl text-gray-200 mb-4" data-i18n="project-text">TDHCrypto’s mission is to become the most decentralized and most fairly distributed meme-token in the world. We’ve pioneered a distribution mechanism that allows us to distribute tokens in a social way, preventing whale-dumps and thus creating a safe-haven asset that can serve as a piggy bank for years to come. Additionally, our token holders receive 3% of all transactions, providing the benefit of automatic yield farming.</p>
+        <p class="text-lg xl:text-xl text-gray-200 mb-4">The TDHCrypto token features impressive liquidity-locking and enables auto-yield farming for loyal TDH token holders. We believe however, simply being a meme token and offering these benefits is not enough. The real problem that we want to focus on is fair accessibility to cryptocurrencies and mainstream adoption.</p>
+        <p class="text-lg xl:text-xl text-gray-200 mb-4">TDHCrypto is socially distributed through community rewards, airdrops, and content/creator tipping on our dApps. It is a community-owned project and has a dedicated token pool for such rewards and airdrops. The supply pool is expected to be fully distributed within the first couple weeks of project launch.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900" id="problem">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 xl:px-4 py-8">
+        <h3 class="text-white text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-12" data-i18n="problem-title">The Problem</h3>
+      <div class="text-left pt-12">
+        <p class="text-lg xl:text-xl text-gray-200 mb-4" data-i18n="problem-text1">TDHCrypto solves the problem of unfair token distribution and frequent whale dumps. Take Dogecoin, for example: the largest holder owns 28% of all tokens. This holder could single-handedly crash the price by an estimated 96%.</p>
+        <p class="text-lg xl:text-xl text-gray-200 mb-4" data-i18n="problem-text2">Most other tokens have a similarly uneven supply distribution. For these tokens, a handful of individuals own major portions of the supply, resulting in continuous dumps and unsustainable price pressure in the long term.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900" id="solution">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 xl:px-4 py-8">
+        <h3 class="text-white text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-12" data-i18n="solution-title">The Solution</h3>
+      <div class="text-left pt-12">
+        <p class="text-lg xl:text-xl text-gray-200 mb-4" data-i18n="solution-text1">TDHCrypto solves this problem through an innovative social distribution mechanism. This mechanism is responsible for distributing 80% of all eventually circulating TDH tokens to a wide range of holders (2 million token holders, to be precise), making TDHCrypto the most decentralized meme-token in existence.</p>
+        <p class="text-lg xl:text-xl text-gray-200 mb-4" data-i18n="solution-text2">This is done by programmatically subscribing to all transactions on Binance Smart Chain (which are public by nature) and randomly picking a couple thousand winners each day, who are gifted with a set number of TDH tokens. The receivers of TDH tokens usually become long-term holders and loyal project supporters.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900" id="distribution">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 xl:px-4 py-8">
+        <h3 class="text-white text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-12" data-i18n="method-title">Decentralized Distribution</h3>
+      <div class="text-left pt-12">
+        <p class="text-lg xl:text-xl text-gray-200 mb-4" data-i18n="method-text">We believe our approach is the fairest and most sustainable way to create a decentralized token. It helps to ensure the stability of the future token value and serves as an effective anti-whale measure. You can track the distribution progress of 400T TDH tokens below. The progress bar is updated every 48 hours.</p>
+
+        <div class="relative pt-4">
+            <div class="flex mb-2 items-center justify-between">
+              <div>
+                <span class="text-xs font-semibold inline-block uppercase rounded-full text-white" data-i18n="bar-text">
+                  TDHCrypto (TDH) distribution progress
+                </span>
+              </div>
+              <div class="text-right">
+                <span class="font-semibold inline-block text-white">
+                  98.1%
+                </span>
+              </div>
+            </div>
+            <div class="overflow-hidden h-6 mb-4 text-xs flex rounded bg-white">
+              <div style="width:98.1%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-black border-white border-2 rounded"></div>
+            </div>
+        </div>
+
+        <p class="text-lg xl:text-xl text-gray-200 mb-4 pt-12" data-i18n="solution-text2">On October 15th, 2021, TDHCrypto reached its biggest milestone: its distribution was officially completed, reaching more than 751,222 real holders. A small number of tokens are reserved for a final 1.9% airdrop distribution through a grand-finale campaign. In summary:</p>
+        <ul class="text-gray-200 space-y-4 text-lg">
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b1" class="w-full">TDHCrypto is now risk-free, no more unlocked supply</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b2" class="w-full">TDHCrypto is the largest TDH token in the world</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="token-b3" class="w-full">TDHCrypto is the most decentralized token on BSC</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b1" class="w-full">TDHCrypto is the most fairly distributed digital asset in existence</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="token-b3" class="w-full">TDHCrypto has now more than 750k real holders and over 40k community members</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b1" class="w-full">TDHCrypto is the largest economic experiment on BSC in its history</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+              <div class="w-6 h-6">
+                <svg class="text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span data-i18n="token-b1" class="w-full">TDHCrypto has officially completed its distribution phase and is ready for take-off!</span>
+            </li>
+          </ul>
+
+
+        <p class="text-lg xl:text-xl text-gray-200 mb-4 pt-4">Every additional 50K TDH holders, TDHCrypto additionally burns 10T tokens. This increases the potential value and scarcity of TDH tokens.</p>
+        <div class="relative pt-4">
+            <div class="flex mb-2 items-center justify-between">
+              <div>
+                <span class="text-xs font-semibold inline-block uppercase rounded-full text-white mb-4">
+                  Burn Progress
+                </span>
+              </div>
+              <div class="text-right">
+                <span class="font-semibold inline-block text-white">
+                  30T tokens burned
+                </span>
+              </div>
+            </div>
+            <div class="overflow-hidden h-1 mb-4 text-xs flex rounded bg-white">
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 0%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 5%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 10%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 15%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 20%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 25%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 30%;"></div>
+                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-white cursor-pointer" style="left: 35%;"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900" id="distribution">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 xl:px-4 py-8">
+        <h3 class="text-white text-center text-3xl md:text-4xl lg:text-5xl font-bold mt-12">Decentralized Distribution</h3>
+      <div class="text-left pt-12">
+        <p class="text-lg xl:text-xl text-gray-200 mb-4">We've allocated 40% of supply for public distribution which is distributed from 4 wallets. This distribution will take shape and form in various ways (dApp interaction rewards, airdrops/giveaways, rewards for transactions on BSC, rewards for transactions with TDH, rewards for helping the project, etc) and is our approach to creating a widely distributed & decentralized token-holder base.</p>        
+        <div class="relative pt-1">
+            <div class="flex mb-2 items-center justify-between">
+              <div>
+                <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-indigo-800 bg-indigo-200">
+                  Distributing 400 Trillion TDH Tokens
+                </span>
+              </div>
+              <div class="text-right">
+                <span class="font-semibold inline-block text-white">
+                  8.3%
+                </span>
+              </div>
+            </div>
+            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded bg-white">
+              <div style="width:8.3%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-indigo-600"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- rating block -->
+  <div class="bg-gray-900">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 pb-12 lg:pb-16 xl:pb-24">
+      <div class="flex flex-col justify-center items-center">
+        <div class="bg-yellow-50 rounded-lg border border-yellow-200 py-4 lg:py-8 px-4 md:px-12 w-full md:w-auto flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 lg:space-x-12">
+          <div>
+            <p class="trakcing-wide uppercase font-bold text-gray-800 text-lg lg:text-xl">4.9 Overall rating</p>
+            <p class="text-base lg:text-lg text-gray-600">Serving 3000 companies world wide</p>
+          </div>
+          <div class="text-yellow-400 flex space-x-2">
+            <svg class="w-6 h-6" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+            <svg class="w-6 h-6" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+            <svg class="w-6 h-6" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+            <svg class="w-6 h-6" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+            <svg class="w-6 h-6" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ rating block -->
+
+  
+  <!-- faq block -->
+  <div class="bg-gray-900 pb-12 lg:pb-20 relative overflow-hidden" id="stats">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 relative z-20">
+        <div class="grid md:grid-cols-4 gap-8 lg:gap-12 py-16 mb-12">
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 flex">
+                <div class="flex-1">
+                    <h5 class="font-bold text-xl lg:text-2xl mb-3" data-i18n="token-holders">Token Holders</h5>
+                    <p class="text-lg text-gray-200 mb-6">751,222</p>
+                  </div>
+            </div>
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 flex">
+                <div class="flex-1">
+                    <h5 class="font-bold text-xl lg:text-2xl mb-3" data-i18n="circulating-supply">Circulating Supply</h5>
+                    <p class="text-lg text-gray-200 mb-6">113,559,500,000,000</p>
+                  </div>
+            </div>
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 flex">
+                <div class="flex-1">
+                    <h5 class="font-bold text-xl lg:text-2xl mb-3" data-i18n="market-cap">Market Cap</h5>
+                    <p class="text-lg text-gray-200 mb-6">$2,673,722</p>
+                  </div>
+            </div>
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 flex">
+                <div class="flex-1">
+                    <h5 class="font-bold text-xl lg:text-2xl mb-3" data-i18n="community-size">Community Size</h5>
+                    <p class="text-lg text-gray-200 mb-6">37,812+ Members</p>
+                  </div>
+            </div>
+          </div>
+
+      <div class="text-center mb-12" id="questions">
+        <h3 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4" data-i18n="questions-title">Common Questions</h3>
+        <!-- <p class="text-lg xl:text-xl text-gray-200">Ask us anything about our product.</p> -->
+      </div>
+      <div class="mb-6">
+        <ul class="divide-y divide-gray-600 text-base md:text-lg">
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question1">
+                How can I buy TDHCrypto tokens?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer1">Download TrustWallet or MetaMask, register on Binance and purchase BNB. Click the buy button on this page and you will be redirected to PancakeSwapV2. Click "I understand" and purchase the desired amount.</p>
+          </li>
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question2">
+                What is your roadmap?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer2">TDHCrypto’s first mission is to become the most decentralized meme-token. We want to surpass Dogecoin in the number of active token holders. Our second mission is to make cryptocurrencies mainstream by providing simple-to-use dApps for “normies”. Currently, we are developing a meme-sharing content platform with creator tipping features. This will give TDH tokens utility and will ensure the continuous growth of this project, once the first mission has been realized.</p>
+          </li>
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question3">
+                What is the marketing for TDHCrypto?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer3">TDHCrypto currently has six volunteers working on marketing activities. Specifically, we are working on guerilla marketing campaigns to reach a wide mainstream audience of users.</p>
+          </li>
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question4">
+                What are the tokenomics of TDHCrypto?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer4">The total supply is 1,000,000,000,000,000 of which 50% is burned, 40% distributed via airdrops/community rewards, 5% allocated for growth/development and 5% provided as public liquidity. Of the transaction value, 5% is locked for liquidity and 3% is distributed to token holders.</p>
+          </li>
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question5">
+                Why did I receive TDH tokens?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer5">Please refer to the "Decentralized Distribution" section of this page. You've either signed up for an airdrop, added value to the project, transacted on BSC, transacted with TDH or used one of our dApps.</p>
+          </li>
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question6">
+                What is the TDHCrypto token contract address?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer6">The official BEP-20 (BSC) address is XXXXXXXXXXXXXXXXXXXXXXX</p>
+          </li>
+          <li x-data="{'active': false}">
+            <button @click="active = !active" class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between">
+              <span class="flex-1 text-left pr-6" data-i18n="question7">
+                What is the token ticker for TDHCrypto?
+              </span>
+              <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </button>
+            <p x-cloak x-show="active" class="mb-4 font-normal" data-i18n="answer7">The ticker is TDH</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--/ faq block -->
+
+  <div class="bg-gray-900" id="join">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 relative z-20">
+        <h3 class="text-center text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-6" data-i18n="join-TDHgang">Join the #TDHGang</h3>
+        <div class="flex space-x-4 justify-center">
+            <a href="#" class="focus:outline-none inline-block bg-transparent border-2 border-white hover:bg-gray-700 font-semibold rounded-lg py-4 px-6 text-white" data-i18n="join-telegram">Join Telegram</a>
+            <a href="#" class="focus:outline-none inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-4 px-6 text-white"><img class="w-4 h-4 inline mr-2 -mt-1" src="images/cake.svg" /><span data-i18n="buy-pancakeswap">Buy on PancakeSwapV2</span></a>
+        </div>
+    </div>
+  </div>
+
+  <!-- footer block -->
+  <footer class="bg-gray-900 text-gray-200 py-12 xl:pb-24">
+    <!-- <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8">
+      <div>
+        <h5 class="text-xl font-bold text-gray-300">Product</h5>
+        <nav class="mt-4">
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Landingpages</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Features</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Showcase</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h5 class="text-xl font-bold text-gray-300">Industries</h5>
+        <nav class="mt-4">
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Employment</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Childcare</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Dealerships</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h5 class="text-xl font-bold text-gray-300">About us</h5>
+        <nav class="mt-4">
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Company</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Download brochure</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Resources</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h5 class="text-xl font-bold text-gray-300">Legal</h5>
+        <nav class="mt-4">
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Terms and conditions</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Security</a>
+            </li>
+            <li>
+              <a href="#" class="text-base hover:text-gray-500">Privacy</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div> -->
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 flex flex-col md:flex-row justify-between items-center space-y-4 mt-16 lg:mt-20">
+      <div class="text-sm space-y-4 md:space-y-1 text-center md:text-left">
+        <p>2021 - The TDHCrypto project (#TDH).</p>
+        <p>The Most Decentralized Meme-Token.</p>
+      </div>
+      <div class="max-w-screen-xl justify-end px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16">
+        <a href="#" class="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
+            <img class="h-10 inline mr-4 -mt-1" src="images/gems.png" alt="" width="auto">
+            <span class="text-xl font-bold">#TDHCrypto</span>
+        </a>
+       </div>
+      <!-- <a href="#" class="inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-4 px-5 lg:px-8 text-white md:transform md:-translate-y-2"><img class="w-4 h-4 inline mr-2 -mt-1" src="images/cake.svg" />Buy on PancakeSwapV2</a> -->
+    </div>
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 flex flex-col md:flex-row justify-between items-center space-y-4 mt-8 lg:mt-12">
+      <nav class="flex flex-wrap justify-center space-x-6"> 
+        <a href="#features" class=" text-sm hover:text-gray-700 mb-2">Features</a>
+        <a href="#project" class=" text-sm hover:text-gray-700 mb-2">Project</a>
+        <a href="#distribution" class=" text-sm hover:text-gray-700 mb-2">Distribution</a>
+        <a href="#" class=" text-sm hover:text-gray-700 mb-2">Branding</a>
+        <a href="#" class=" text-sm hover:text-gray-700 mb-2">BambooPaper</a>
+        <a href="#join" class=" text-sm hover:text-gray-700 mb-2">Join</a>
+      </nav>
+      <nav class="flex items-center space-x-2">
+        <a href="#" class="text-gray-500 hover:text-gray-200">
+          <span class="sr-only">Reddit</span>
+          <svg class="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M14.238 15.348c.085.084.085.221 0 .306-.465.462-1.194.687-2.231.687l-.008-.002-.008.002c-1.036 0-1.766-.225-2.231-.688-.085-.084-.085-.221 0-.305.084-.084.222-.084.307 0 .379.377 1.008.561 1.924.561l.008.002.008-.002c.915 0 1.544-.184 1.924-.561.085-.084.223-.084.307 0zm-3.44-2.418c0-.507-.414-.919-.922-.919-.509 0-.923.412-.923.919 0 .506.414.918.923.918.508.001.922-.411.922-.918zm13.202-.93c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-.129c0-.851-.695-1.543-1.55-1.543-.417 0-.795.167-1.074.435-1.056-.695-2.485-1.137-4.066-1.194l.865-2.724 2.343.549-.003.034c0 .696.569 1.262 1.268 1.262.699 0 1.267-.566 1.267-1.262s-.568-1.262-1.267-1.262c-.537 0-.994.335-1.179.804l-2.525-.592c-.11-.027-.223.037-.257.145l-.965 3.038c-1.656.02-3.155.466-4.258 1.181-.277-.255-.644-.415-1.05-.415-.854.001-1.549.693-1.549 1.544 0 .566.311 1.056.768 1.325-.03.164-.05.331-.05.5 0 2.281 2.805 4.137 6.253 4.137s6.253-1.856 6.253-4.137c0-.16-.017-.317-.044-.472.486-.261.82-.766.82-1.353zm-4.872.141c-.509 0-.922.412-.922.919 0 .506.414.918.922.918s.922-.412.922-.918c0-.507-.413-.919-.922-.919z"/></svg>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-200">
+          <span class="sr-only">Telegram</span>
+          <!-- <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+          </svg> -->
+
+          <svg class="h-5 w-5 -mt-1" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path id="telegram-1" d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/></svg>
+        </a>
+        <a href="#" class="text-gray-500 hover:text-gray-200">
+          <span class="sr-only">Twitter</span>
+          <svg class="h-6 w-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </footer>
+  <!--/ footer block -->
+
+</main>
+  
+</body>
+</html>
